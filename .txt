@@ -1,0 +1,33 @@
+input[type=login]+br+input[type=password]
+Esse código gera dois inputs sendo eles: Login e Senha
+
+    <input type="login">
+    <br>
+    <input type="password">
+-----------------------------------------------------------------------------------------------------------------------------------
+
+Criações de class='' sempre vai ajudar o código ficar mais organizado
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+Para importar fontes, basta entra no google fonts e copiar o código de importação da fonte 
+Exemplo da fonte "Krone One" e "Montsserat": @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+Sempre iniciar o css com o código de resetar as margens e os paddings:
+*{
+    margin: 0;
+    padding: 0;
+}
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+Para alinhar itens ou textos tem que criar um -- display: flex;
+Se quiser em colunas utilize -- flex-direction: column;
+Se quiser na horizontal utilize -- flex-direction: row;
+Site para acesar espaçamentos dentro de um flexBox -- https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+Ass.: Vitor Alcantara
