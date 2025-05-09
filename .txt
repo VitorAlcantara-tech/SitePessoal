@@ -30,4 +30,26 @@ Site para acesar espaçamentos dentro de um flexBox -- https://css-tricks.com/sn
 
 -----------------------------------------------------------------------------------------------------------------------------------
 
+Para dispor um header da forma que voce quiser utilize:
+
+padding: x% y% z% w% - sempre em porcentagem para abrir igual em qualquer monitor
+x = distancia-top
+y = distancia-rigth
+z = distancia-bottom
+w = distancia-left
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+Para separar itens basta iniciar um flexbox:
+
+display: flex;
+gap: (valor x);
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+Documentações sobre css na W3 SCHOOLS
+https://www.w3schools.com/
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
 Ass.: Vitor Alcantara

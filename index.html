@@ -4,22 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PáginaPessoal</title>
-    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="/styles/style.css">
     <link rel="stylesheet icon" href="img/Logo_Vitao.jpg">
 </head>
 <body>
-    <header></header>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="links" href="index.html">Home</a>
+            <a class="links" href="sobremim.html">Sobre mim</a>
+        </nav>
+    </header>
     <main class="apresentacao">
         <section class="apresentacao__conteudo">
             <h1 class="apresentacao__conteudo__titulo"><strong class="titulo">Vitor Alcantara - <br> Engenherio de Software</strong></h1>
             <p class="apresentacao__conteudo__texto">Olá! Sou Vitor Alcantara, desenvolvedor Front-end com conhecimentos prévios em JavaScript, HTML, CSS e PYTHON. Busco oportunidades de aprender e aplicar meus conhecimentos na área da tecnologia. Gosto de desafios onde tenho que me desdobrar para solucioná-lo, e com uma boa comunicação entre a equipe sempre espero atingir o objetivo com facilidade e de forma ágil. Vamos conversar?</p>
             
             <div class="apresentacao__links">
-            <a class="botao" href="https://www.linkedin.com/in/vitor-alcantara">Linkedln</a>
-            <a class="botao" href="https://github.com/VitorAlcantara-tech">Github</a>
+                <h2 class="apresentacap__links__subtitulo">Acesse minhas redes:</h2>
+                
+                <a class="botao" href="https://github.com/VitorAlcantara-tech">
+                    <img class="imagem" src="./img/github.png" alt="logo github">
+                    Github
+                </a>
+                <a class="botao" href="https://www.linkedin.com/in/vitor-alcantara">
+                    <img class="imagem" src="./img/linkedin.png" alt="logo linkedln">
+                    Linkedln
+                </a>
+                <a class="botao" href="https://www.instagram.com/_vitor_alcan/">
+                    <img class="imagem" src="./img/instagram.png" alt="logo instagram">
+                    Instagram
+                </a>
             </div>
         </section>
-    <img src="./img/fotovitoredit.png" alt="VitorAlcantara-tech">
+        <img class="foto" src="./img/fotovitoredit.png" alt="VitorAlcantara-tech">
     </main>
+    <footer class="rodape">
+        <p>&copy; Desenvolvido por Vitor Alcantara</p>
+    </footer>
 </body>
 </html>
