@@ -128,7 +128,7 @@ body{
     text-align: center;
 }
 
-@media (max-width: 1250px) {
+@media screen and (max-width: 1250px){
     
     .cabecalho {
         padding: 5% 0; /* remove o padding lateral que desalinha */
