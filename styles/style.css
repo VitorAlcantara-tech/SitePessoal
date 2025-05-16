@@ -148,9 +148,14 @@ body{
         width: auto;
     }
     
-    .foto{
-        max-width: 75%;
-    }
+    .foto {
+    width: 75%;
+    max-width: 250px; /* Limita o tamanho máximo da imagem */
+    height: auto; /* Mantém a proporção original da imagem */
+    border-radius: 10%;
+    display: block; /*Para ocupar todo a largura diponivel */
+    margin: 0 auto; /* Centraliza a imagem, opcional */
+}
 
     .rodape{
         bottom: 0;
